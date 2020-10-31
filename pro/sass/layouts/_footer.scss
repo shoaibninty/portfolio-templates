@@ -1,0 +1,25 @@
+.footer 
+{
+    .wrapper 
+    {
+       padding: 40px 0;
+    }
+    background-color: black;
+    &__links 
+    {
+        a {
+            color: whitesmoke;
+            font-size: 25px;
+            margin: 0 15px;
+        }
+    }
+    
+    &__content 
+    {
+        color: whitesmoke;
+        p 
+        {
+            margin: 0;
+        }
+    }
+}

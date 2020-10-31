@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;800;900&display=swap");
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+}
+
+.color-primary {
+  color: #27ae60;
+}
+
+.color-white {
+  color: white;
+}
+
+.heading-main {
+  font-size: 50px;
+  line-height: 65px;
+}
+
+.heading-main span {
+  display: block;
+}
+
+.heading-sub {
+  font-weight: lighter;
+}
+
+.u-margin-top-huge {
+  margin-top: 50px;
+}
+
+.u-margin-top-large {
+  margin-top: 40px;
+}
+
+.u-margin-top-medium {
+  margin-top: 30px;
+}
+
+.u-margin-top-small {
+  margin-top: 20px;
+}
+
+.u-margin-top-tiny {
+  margin-top: 10px;
+}
+
+._btn:link, ._btn:visited {
+  border-radius: 3px;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: white;
+  background: -webkit-gradient(linear, left top, right top, from(#2ecc71), to(#27ae60));
+  background: linear-gradient(to right, #2ecc71, #27ae60);
+  display: inline-block;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  border: 1px solid #27ae60;
+  font-size: 16px;
+}
+
+._btn:hover {
+  background: white;
+  color: #27ae60;
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+._btn:active {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+.nav-icon {
+  font-size: 22px;
+}
+
+.bg-transparent {
+  border-bottom: 1px solid white;
+}
+
+.bg-white {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  background-color: white;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer .wrapper {
+  padding: 40px 0;
+}
+
+.footer__links a {
+  color: whitesmoke;
+  font-size: 25px;
+  margin: 0 15px;
+}
+
+.footer__content {
+  color: whitesmoke;
+}
+
+.footer__content p {
+  margin: 0;
+}
+
+.home {
+  padding-top: 50px;
+  position: relative;
+}
+
+.home .wrapper {
+  padding: 80px 0;
+}
+
+.carousel-indicators li {
+  background-color: #27ae60;
+}
+
+.carousel-inner {
+  height: 70vh;
+}
+
+.home_business {
+  position: relative;
+}
+
+.home_business--heading {
+  background-color: #27ae60;
+  padding-left: 80px;
+  height: 450px;
+}
+
+.home_business--heading h2 {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 55px;
+}
+
+.home_business--content {
+  background-color: #32e67d50;
+  height: 450px;
+  padding: 0 80px;
+}
+
+.home_business--content .text {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 20px;
+}
+
+.home_overview {
+  background-color: #EBF3FA;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.home_overview-summary h3 {
+  font-size: 50px;
+  font-weight: bolder;
+  color: #27ae60;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.home_overview-summary p {
+  font-size: 18px;
+}
+
+.home__services {
+  padding: 120px 0;
+}
+
+.home__services__cards .card__image {
+  height: 150px;
+}
+
+.home__services__cards .card__image--1 {
+  background: url("../img/home/service-ui.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+}
+
+.home__services__cards .card__image--2 {
+  background: url("../img/home/service-website.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+}
+
+.home__services__cards .card__image--3 {
+  background: url("../img/home/service-web.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+}
+
+.home__services__cards .card__image--4 {
+  background: url("../img/home/service-desktop.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+}
+
+.home__services__cards .card__content {
+  padding: 25px;
+}
+
+.home__services__cards .card__content i {
+  font-size: 25px;
+}
+
+.home__services__cards .card__content h6 {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.home__services__cards .card__content p {
+  margin-top: 15px;
+}
+
+.home__services__img {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+/*# sourceMappingURL=main.css.map */
