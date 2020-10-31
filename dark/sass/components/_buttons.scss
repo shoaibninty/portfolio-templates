@@ -1,0 +1,104 @@
+
+.button 
+{
+    text-align: center;
+    width: 100%;
+}
+
+.btn-general 
+{
+    &, &:visited, &:link 
+    {
+        text-decoration: none;
+        color: $color-white;
+        display: inline-block;
+        font-size: $default-font-size;
+        text-transform: uppercase;
+
+        font-weight: 600;
+
+        border-radius: 40rem;
+        padding: 1.5rem 4rem;
+        position: relative;
+
+       //change for form submit
+        border: none;
+        cursor: pointer;
+        &:focus 
+        {
+            outline: none;
+        }
+    }
+
+    &--black 
+    {
+        background: linear-gradient(to bottom, $color-primary-1, $color-primary-2);
+        &::after 
+        {
+            background: linear-gradient(to bottom, $color-primary-1, $color-primary-2);
+        }
+    }
+
+    &::after 
+    {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 10rem;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+    }
+
+    &:hover 
+    {
+        transform: translateY(-.3rem);
+        box-shadow: 0 1rem 2rem rgba($color-black, 0.30);
+        &::after 
+        {
+            transform: scaleX(1.4) scaleY(1.6);
+            opacity: 0;
+        }
+    }
+
+    &:active 
+    {
+        transform: translateY(-.1rem);
+        box-shadow: 0 .5rem 1rem rgba($color-black, 0.20);
+    }
+
+}
+
+
+.filter-button
+{
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+
+    padding: 2rem 3rem 0 0;
+
+    background-color: transparent;
+    border: none;
+
+    &:focus 
+    {
+        outline: none;
+    }
+
+    span 
+    {
+        display: block;
+        padding-bottom: 1rem;
+    }
+
+    &.active span 
+    {
+        color: $color-primary-1;
+        border-bottom: 3px solid $color-primary-1;
+    }
+
+}

@@ -1,0 +1,48 @@
+/*-------------------------------------------------------------------*/
+/*                              ABSTRACTS                                */
+/*-------------------------------------------------------------------*/
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+
+/*-------------------------------------------------------------------*/
+/*                              BASE                                */
+/*-------------------------------------------------------------------*/
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+@import "base/utils";
+
+
+/*-------------------------------------------------------------------*/
+/*                              COMPONENTS                                */
+/*-------------------------------------------------------------------*/
+@import "components/skill-section";
+@import "components/buttons";
+@import "components/portfolio";
+@import "components/form";
+@import "components/navbar";
+@import "components/preloader";
+
+
+
+
+
+/*-------------------------------------------------------------------*/
+/*                              LAYOUTS                                */
+/*-------------------------------------------------------------------*/
+@import "layouts/homepage";
+@import "layouts/about";
+@import "layouts/plus-points";
+@import "layouts/services";
+@import "layouts/contact";
+@import "layouts/footer";
+@import "layouts/education";
+
+
+
+/*-------------------------------------------------------------------*/
+/*                              PAGES                                */
+/*-------------------------------------------------------------------*/
+@import "pages/home";

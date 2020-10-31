@@ -1,0 +1,217 @@
+@media (min-width: 1200px) and (max-width: 1299px) {
+  .site-nav-wrapper {
+    padding: 0 2rem;
+  }
+  .services__primary--image {
+    margin-top: 12rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .loading .load-logo, .loading .circle {
+    width: 60%;
+  }
+  .site-nav-wrapper {
+    padding: 0;
+  }
+  .logo {
+    margin-left: 80%;
+  }
+  .homepage__content {
+    top: 50%;
+  }
+  .homepage__content--heading-main {
+    font-size: 8rem;
+  }
+  .homepage__content--heading-sub {
+    font-size: 1.8rem;
+  }
+  .homepage__arrow-down a {
+    font-size: 4rem;
+  }
+  .services__primary--image {
+    margin-top: 18.5rem;
+  }
+  .contact__content {
+    width: 60%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .loading .load-logo {
+    width: 40%;
+  }
+  .loading .circle {
+    width: 50%;
+  }
+  /*------------------------------------------------
+                        Navbar
+    --------------------------------------------------*/
+  .site-nav-wrapper {
+    padding: 0;
+  }
+  .logo {
+    margin-left: 80%;
+  }
+  /*------------------------------------------------
+                        Homepage
+    --------------------------------------------------*/
+  .homepage__content {
+    top: 50%;
+  }
+  .homepage__content span {
+    font-size: 6rem;
+  }
+  .homepage__content--heading-main {
+    font-size: 8rem;
+  }
+  .homepage__content--heading-sub {
+    font-size: 1.7rem;
+  }
+  .homepage__arrow-down a {
+    font-size: 4rem;
+  }
+  /*------------------------------------------------
+                        Button
+    --------------------------------------------------*/
+  .btn-general {
+    padding: 1rem 3rem;
+    font-size: 1.3rem;
+  }
+  /*------------------------------------------------
+                        About
+    --------------------------------------------------*/
+  .about__image h2 {
+    font-size: 2rem;
+  }
+  /*------------------------------------------------
+                        Plus Points
+    --------------------------------------------------*/
+  .heading-tertiary {
+    font-size: 1.7rem;
+  }
+  .plus-points__content {
+    padding: 4rem 0.5rem;
+  }
+  .plus-points__content p {
+    font-size: 1.4rem;
+  }
+  /*------------------------------------------------
+                        Statement
+    --------------------------------------------------*/
+  .section-statement h4 {
+    font-size: 2rem;
+  }
+  /*------------------------------------------------
+                        Services
+    --------------------------------------------------*/
+  .services__primary--image {
+    margin-top: 20rem;
+  }
+  /*------------------------------------------------
+                        Contact
+    --------------------------------------------------*/
+  .contact__content {
+    width: 70%;
+  }
+}
+
+@media (max-width: 767px) {
+  .loading .load-logo {
+    width: 40%;
+  }
+  .loading .circle {
+    width: 50%;
+  }
+  /*------------------------------------------------
+                        Navbar
+    --------------------------------------------------*/
+  .navbar {
+    padding: 2rem 0;
+  }
+  .site-nav-wrapper, .dark-nav-top {
+    padding: .5rem 0 0.2rem 0;
+  }
+  /*------------------------------------------------
+                        Homepage
+    --------------------------------------------------*/
+  .homepage__content {
+    top: 50%;
+  }
+  .homepage__content span {
+    font-size: 5rem;
+  }
+  .homepage__content--heading-main {
+    font-size: 6.5rem;
+  }
+  .homepage__content--heading-sub {
+    font-size: 1.5rem;
+  }
+  .homepage__arrow-down a {
+    font-size: 4rem;
+  }
+  /*------------------------------------------------
+                        About
+    --------------------------------------------------*/
+  .about__image {
+    margin-top: 4rem;
+  }
+  .about__image h2 {
+    font-size: 2rem;
+  }
+  /*------------------------------------------------
+                        Plus Points
+    --------------------------------------------------*/
+  .plus-points__content {
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background: none;
+  }
+  .plus-points__content p {
+    font-size: 1.6rem;
+  }
+  /*------------------------------------------------
+                        Statement
+    --------------------------------------------------*/
+  .section-statement h4 {
+    font-size: 1.7rem;
+  }
+  /*------------------------------------------------
+                        Contact
+    --------------------------------------------------*/
+  .contact__content {
+    width: 70%;
+  }
+  /*------------------------------------------------
+                        Footer
+    --------------------------------------------------*/
+  .footer__social-links i {
+    font-size: 1rem;
+  }
+  /*------------------------------------------------
+                        Mobile Menu Button
+    --------------------------------------------------*/
+  #mobile-nav-open-btn {
+    display: block;
+  }
+  .btn-general {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 330px) {
+  .homepage__content {
+    top: 50%;
+  }
+  .homepage__content span {
+    font-size: 15vw;
+  }
+  .homepage__content--heading-main {
+    font-size: 18vw;
+  }
+  .homepage__content--heading-sub {
+    font-size: 5vw;
+  }
+}
+/*# sourceMappingURL=media-queries.css.map */

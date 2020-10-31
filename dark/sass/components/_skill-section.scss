@@ -1,0 +1,54 @@
+.skill-section 
+{
+    padding: 12rem 0;
+
+    .skill 
+    {
+        margin-bottom: 2.5rem;
+
+        h2 
+        {
+            font-size: 1.5rem;
+        }
+
+        .progress 
+        {
+
+            height: 1.5rem;
+            border-radius: 5rem;
+            overflow: visible;
+            background-color: $color-grey-light;
+
+            .progress-bar 
+            {
+                border-radius: 5rem;
+                background-color: $color-primary-1;
+                position: relative;
+            }
+
+            span 
+            {
+                font-size: 1.2rem;
+                background-color: $color-grey-1;
+                position: absolute;
+                left: 95%;
+                top: -4rem;
+                padding: .3rem 1rem;
+                &:before 
+                {
+                    content: "";
+                    border-top: .8rem solid $color-grey-1;
+                    border-left: .6rem solid transparent;
+                    border-right: .6rem solid transparent;
+                    position: absolute;
+                    bottom: -.8rem;
+                }
+
+            }
+
+
+        }
+
+    }
+
+}

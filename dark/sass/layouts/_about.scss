@@ -1,0 +1,37 @@
+.about 
+{
+    &__heading 
+    {
+        position: relative;
+    }
+
+    &__image 
+    {
+
+        .my-pic 
+        {
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%;
+            width: 22rem;
+            border: 1.3rem solid $color-grey;
+            box-shadow: 0 0 0 .6rem $color-primary-1;
+            margin-bottom: 1rem;
+        }
+        h3 
+        {
+            margin-top: 4rem;
+            text-transform: uppercase;
+            word-spacing: 1rem;
+            letter-spacing: .1rem;
+        }
+    }
+
+    &__content 
+    {
+        a 
+        {
+            color: $color-primary-1;
+        }
+    }
+}

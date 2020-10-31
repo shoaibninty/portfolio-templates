@@ -1,0 +1,116 @@
+/*-------------------------------------------------------------------*/
+/*                              FONTS                                */
+/*-------------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,800,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900&display=swap');
+
+
+body 
+{
+    font-family: 'Lato', sans-serif;
+    color: $color-white;
+    font-size: $default-font-size;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 
+{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*-------------------------------------------------------------------*/
+/*                            HEADINGS                               */
+/*-------------------------------------------------------------------*/
+
+
+.heading-primary 
+{
+
+    font-size: 3rem;
+    
+    .color 
+    {
+        color: $color-primary-1;
+        font-weight: 600;
+    }
+}
+
+.heading-tertiary 
+{
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: 2.1rem;
+    font-weight: 600;
+}
+
+.heading-vertical 
+{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: $color-primary-1;
+    word-spacing: .5rem;
+
+    transform: rotate(-90deg);
+
+    position: absolute;
+    top: -1.5rem;
+    left: -5rem;
+}
+
+.heading-horizontal 
+{
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: $color-primary-1;
+    word-spacing: .5rem;
+   
+}
+
+
+
+/*-------------------------------------------------------------------*/
+/*                        HOMPEAGE HEADINGS                          */
+/*-------------------------------------------------------------------*/
+
+
+.homepage__content--heading-main
+{
+
+    font-size: 10rem;
+    color: $color-white;
+
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: .6rem;
+
+    span 
+    {
+        font-size: 7rem;
+    }
+
+    .color 
+    {
+        color: $color-primary-1;
+    }
+
+}
+
+.homepage__content--heading-sub
+{
+    font-size: 2.2rem;
+    color: $color-primary-1;
+    
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .3rem;
+}
+
+
+.paragraph 
+{
+    font-size: $default-font-size;
+}

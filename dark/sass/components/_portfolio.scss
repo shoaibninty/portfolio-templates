@@ -1,0 +1,103 @@
+.portfolio
+{
+  &__content 
+  {
+    &--item 
+    {
+      overflow: hidden;
+      position: relative;
+      img 
+      {
+        transition: all .3s;
+        backface-visibility: hidden;
+      }
+      &:hover 
+      {
+        img
+        {
+          transform: scale(1.1);
+        }
+      }
+    }
+
+    &__overlay 
+    {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+
+      background-color: rgba($color-grey-1, .9);
+
+      opacity: 0;
+
+      cursor: pointer;
+
+      transition: all .3s;
+
+      &--details 
+      {
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 100%;
+
+        h3 
+        {
+          text-transform: uppercase;
+          color: $color-primary-1;
+          transform: translateY(-1rem);
+          transition: all .8s;
+        }
+
+        span 
+        {
+          display: inline-block;
+          border-top: 1px solid $color-white-smoke;
+          border-bottom: 1px solid $color-white-smoke;
+          width: 3rem;
+          height: .6rem;
+          padding: .2rem;
+          margin: .5rem auto .9rem auto;
+        }
+
+        p 
+        {
+          color: $color-white;
+          font-size: 1.5rem;
+          transform: translateY(1rem);
+          transition: all .8s;
+        }
+
+      }
+
+    }
+
+  }
+}
+
+.portfolio__content--item:hover
+{
+  h3, p 
+  {
+    transform: translate(0);
+  }
+}
+
+.portfolio__content__overlay:hover
+{
+  opacity: 1;
+}
+
+
+
+.row.no-gutter [class*="col-"] {
+  padding: 0;
+}
+
+.isotope-filters {
+  margin-top: 4rem;
+  padding: 2rem 0;
+}

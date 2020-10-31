@@ -1,0 +1,71 @@
+.plus-points 
+{
+    position: relative;
+    padding: 8rem 0;
+    background-image: url(../img/about/plus-points.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    &__overlay 
+    {
+        position: absolute;
+        background-color: rgba($color-black, .9);
+        height: 100%;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    
+    &__content 
+    {
+        text-align: center;
+
+        background-color: rgba($color-black, .7);
+        border-radius: 3px;
+        box-shadow: 0 0 2rem rgba($color-primary-1, .2);
+
+        padding: 6rem 2rem;
+
+        transition: all .3s;
+
+        i 
+        {
+            font-size: 5rem;
+            margin-bottom: 2rem;
+            color: $color-primary-1;
+            transition: all .3s;
+        }
+
+        hr 
+        {
+            margin: 1rem auto;
+            height: .1rem;
+            width: 50%;
+            background-color: $color-primary-1;
+            transition: all .3s;
+        }
+
+        p 
+        {
+            margin-top: 3rem;
+            font-size: 1.5rem;
+        }
+
+        &:hover 
+        {
+            transform: translateY(-2rem);
+        }
+
+        &:hover i
+        {
+            transform: translateY(-3rem);
+            color: $color-white;
+        }
+
+        &:hover hr 
+        {
+            background-color: $color-white;
+        }
+    }
+}

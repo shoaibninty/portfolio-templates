@@ -1,0 +1,419 @@
+
+//Large Screen Sizes (Desktop and Laptops)
+
+@media (min-width: 1200px) and (max-width: 1299px)
+{
+   .site-nav-wrapper 
+   {
+       padding: 0 2rem;
+   }
+
+   .services__primary--image 
+   {
+       margin-top: 12rem;
+   }
+
+
+}
+
+
+
+//Medium Devices (Tablets)
+
+@media (min-width: 992px) and (max-width: 1199px)
+{
+
+
+    .loading
+    {
+        .load-logo, .circle 
+        {
+            width: 60%;
+        }
+    }
+
+    //NAVBAR
+    .site-nav-wrapper 
+   {
+       padding: 0;
+   }
+   //LOGO
+   .logo 
+   {
+       margin-left: 80%;
+   }
+   //MAIN HEADING
+    .homepage
+    {
+        &__content
+        {
+            top: 50%;
+            &--heading 
+            {
+                &-main
+                {
+                    font-size: 8rem;
+                }
+                &-sub 
+                {
+                    font-size: 1.8rem;
+                }
+            }
+        }
+        
+        &__arrow-down 
+        {
+            a {
+                font-size: 4rem;
+            }
+        }
+    }
+
+    .services__primary--image 
+    {
+        margin-top: 18.5rem;
+    }
+
+    .contact__content 
+    {
+        width: 60%;
+    }
+    
+}
+
+
+//Small Devices (Mobiles)
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+
+    .loading
+    {
+        .load-logo
+        {
+            width: 40%;
+        }
+        .circle  
+        {
+            width: 50%;
+        }
+    }
+
+    /*------------------------------------------------
+                        Navbar
+    --------------------------------------------------*/
+
+    .site-nav-wrapper 
+    {
+        padding: 0;
+    }
+
+    .logo 
+    {
+        margin-left: 80%;
+    }
+
+ /*------------------------------------------------
+                        Homepage
+    --------------------------------------------------*/
+
+    .homepage
+    {
+        &__content
+        {
+            top: 50%;
+
+            span 
+            {
+                font-size: 6rem;
+            }
+
+            &--heading 
+            {
+                &-main
+                {
+                    font-size: 8rem;
+                }
+                &-sub 
+                {
+                    font-size: 1.7rem;
+                }
+            }
+        }
+        
+        &__arrow-down 
+        {
+            a {
+                font-size: 4rem;
+            }
+        }
+    }
+
+
+    /*------------------------------------------------
+                        Button
+    --------------------------------------------------*/
+    
+    .btn-general 
+    {
+        padding: 1rem 3rem;
+        font-size: 1.3rem;
+    }
+
+
+
+    /*------------------------------------------------
+                        About
+    --------------------------------------------------*/
+    .about 
+    {
+        &__image 
+        {
+            h2 
+            {
+                font-size: 2rem;
+            }
+        }
+    }
+
+
+    /*------------------------------------------------
+                        Plus Points
+    --------------------------------------------------*/
+
+    .heading-tertiary 
+    {
+        font-size: 1.7rem;
+    }
+
+    .plus-points__content 
+    {
+        padding: 4rem 0.5rem;
+        p 
+        {
+            font-size: 1.4rem;
+        }
+    }
+
+    /*------------------------------------------------
+                        Statement
+    --------------------------------------------------*/
+    .section-statement 
+    {
+        h4 
+        {
+            font-size: 2rem;
+        }
+    }
+
+
+    /*------------------------------------------------
+                        Services
+    --------------------------------------------------*/
+    .services__primary--image 
+    {
+        margin-top: 20rem;
+    }
+
+
+
+    /*------------------------------------------------
+                        Contact
+    --------------------------------------------------*/
+    .contact__content 
+    {
+        width: 70%;
+    }
+
+
+}
+
+
+
+
+//Extra Small Devices 
+
+@media (max-width: 767px)
+{
+
+    .loading
+    {
+        .load-logo
+        {
+            width: 40%;
+        }
+        .circle  
+        {
+            width: 50%;
+        }
+    }
+
+     /*------------------------------------------------
+                        Navbar
+    --------------------------------------------------*/
+    .navbar 
+    {
+        padding: 2rem 0;
+    }
+
+    .site-nav-wrapper, .dark-nav-top 
+    {
+        padding: .5rem 0 0.2rem 0;
+    }
+
+
+    
+    /*------------------------------------------------
+                        Homepage
+    --------------------------------------------------*/
+
+    .homepage
+    {
+        &__content
+        {
+
+            span 
+            {
+                font-size: 5rem;
+            }
+
+            top: 50%;
+            &--heading 
+            {
+                &-main
+                {
+                    font-size: 6.5rem;
+                }
+                &-sub 
+                {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        
+        &__arrow-down 
+        {
+            a {
+                font-size: 4rem;
+            }
+        }
+    }
+
+
+/*------------------------------------------------
+                        About
+    --------------------------------------------------*/
+    .about 
+    {
+        &__image 
+        {
+            margin-top: 4rem;
+            h2 
+            {
+                font-size: 2rem;
+            }
+        }
+    }
+
+
+    /*------------------------------------------------
+                        Plus Points
+    --------------------------------------------------*/
+
+
+    .plus-points__content 
+    {
+        box-shadow: none;
+        background: none;
+
+        p 
+        {
+            font-size: 1.6rem;
+        }
+    }
+
+    /*------------------------------------------------
+                        Statement
+    --------------------------------------------------*/
+    .section-statement 
+    {
+        h4 
+        {
+            font-size: 1.7rem;
+        }
+    }
+
+
+
+
+    /*------------------------------------------------
+                        Contact
+    --------------------------------------------------*/
+    .contact__content 
+    {
+        width: 70%;
+    }
+
+
+    /*------------------------------------------------
+                        Footer
+    --------------------------------------------------*/
+    .footer 
+    {
+        &__social-links 
+        {
+           i 
+           {
+               font-size: 1rem;
+           }
+        }
+    }
+
+    /*------------------------------------------------
+                        Mobile Menu Button
+    --------------------------------------------------*/
+    #mobile-nav-open-btn 
+    {
+        display: block;
+    }
+
+
+
+
+
+    .btn-general 
+    {
+        padding: 1rem 2rem;
+        font-size: 1.2rem;
+    }
+}
+
+
+
+@media (max-width: 330px)
+{
+    .homepage
+    {
+        &__content
+        {
+            top: 50%;
+
+            span 
+            {
+                font-size: 15vw;
+            }
+
+            &--heading 
+            {
+                &-main
+                {
+                    font-size: 18vw;
+                }
+                &-sub 
+                {
+                    font-size: 5vw;
+                }
+            }
+        }
+    }
+}
