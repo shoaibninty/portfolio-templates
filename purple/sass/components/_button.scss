@@ -1,0 +1,39 @@
+._btn 
+{
+    font-size: 16px;
+    color: black;
+    padding: 15px 30px;
+    border-radius: 500px;
+
+    box-shadow: 0 4px 5px rgba(black, .4);
+    transition: all .3s;
+
+    &:hover 
+    {
+        text-decoration: none;
+    }
+
+    &--yellow 
+    {
+        background: linear-gradient(to bottom, $color-yellow-light, $color-yellow);
+    }
+}
+
+._btn-line 
+{
+    font-size: 18px;
+    padding: 15px 50px;
+    color: $color-gradient-1;
+
+    border: 1px solid $color-gradient-1;
+    border-radius: 500px;
+
+    transition: all .5s;
+
+    &:hover 
+    {
+        text-decoration: none;
+        color: white;
+        background: $color-gradient-1;
+    }
+}

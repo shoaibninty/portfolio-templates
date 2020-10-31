@@ -1,0 +1,70 @@
+body 
+{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 21px;
+}
+
+h1, h2, h3, h4, h5, h6 
+{
+    margin: 0;
+}
+
+.heading-main
+{
+    font-size: 55px;
+    color: white;
+    .name 
+    {
+        text-transform: uppercase;
+        font-size: 60px;
+    }
+}
+
+.heading-sub 
+{
+    color: white;
+    font-weight: 300;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.heading-primary 
+{
+    font-size: 55px;
+    margin-bottom: 50px;
+}
+
+.heading-secondary 
+{
+    font-size: 40px;
+}
+
+
+
+.span-color
+{
+    color: $color-yellow;
+}
+
+.code-style
+{
+    font-family: 'Courier Prime', monospace;
+    color: white;
+    font-size: 16px;
+    margin: 25px 0;
+}
+
+._color-yellow
+{
+    color: $color-yellow;
+}
+
+._color-purple 
+{
+    color: $color-gradient-1;
+}
+
+.font-courier 
+{
+    font-family: 'Courier Prime', monospace;
+}

@@ -1,0 +1,66 @@
+.skills 
+{
+    &--heading 
+    {
+        text-align: center;
+    }
+
+    hr { margin: 50px 0; }
+
+    ._wrapper 
+    {
+        position: relative;
+        .side-heading 
+        {
+            background: white;
+            padding: 30px;
+            border-radius: 40px;
+            box-shadow: 0 0 7px rgba(black, .2);
+            text-align: center;
+            color: $color-gradient-1;
+
+            h4 
+            {
+                margin-top: 10px;
+            }
+        }
+        .side-content 
+        {
+            position: absolute;
+            width: 100%;
+            top: 50%;
+            transform: translateY(-50%);
+
+            background: white;
+            padding: 30px 30px 40px 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 7px rgba(black, .2);
+
+            .skill-bar 
+            {
+                h5 
+                {
+                    margin: 5px 0;
+                }
+            }
+        }
+    }
+
+    .button 
+    {
+        text-align: center;
+        margin-top: 70px;
+    }
+    
+}
+
+.progress-bar 
+{
+    background: linear-gradient(to right, $color-gradient-1, $color-gradient-2);
+}
+
+.progress 
+{
+    background-color: #ddd;
+}
+

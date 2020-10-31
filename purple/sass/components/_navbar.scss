@@ -1,0 +1,25 @@
+
+.navbar-dark .navbar-nav .nav-link
+{
+    font-size: 18px;
+    padding: 0 20px;
+}
+
+.active 
+{
+    font-weight: bold;
+}
+
+.bg 
+{
+    background-color: $color-gradient-1;
+    padding: 20px 80px;
+}
+
+.navbar-brand 
+{
+    &:hover 
+    {
+        text-decoration: underline;
+    }
+}
